@@ -24,7 +24,7 @@ from PIL import Image
 #app=Flask(__name__)
 #Swagger(app)
 import os
-os.chdir(r'C:\Users\Yogesh\python learn\Praxis\DMD')
+#os.chdir(r'C:\Users\Yogesh\python learn\Praxis\DMD')
 pickle_in = open('pickle_file_iris.pkl',"rb")
 classifier=pickle.load(pickle_in)
 
@@ -92,7 +92,7 @@ def main():
         st.text("This apps help to predict flower")
         st.text("Built with Streamlit")
 
-os.chdir(r'C:\Users\Yogesh\python learn\krish')
+#os.chdir(r'C:\Users\Yogesh\python learn\krish')
 
 if __name__=='__main__':
     main()
